@@ -1,0 +1,21 @@
+Public private protected defaults access modifiers command prompts
+C:\Backend\Java-One\Access Modifiers\privte_pubce_protec>javac -d . A.java
+
+C:\Backend\Java-One\Access Modifiers\privte_pubce_protec>javac -d . B.java
+
+C:\Backend\Java-One\Access Modifiers\privte_pubce_protec>java pack1.B
+Pack1 - Class A(Public) - m1 method(public)
+Pack1 - Class A(Public) - m2 method(default)
+Pack1 - Class A(Public) - m4 method(protected)
+
+C:\Backend\Java-One\Access Modifiers\privte_pubce_protec>javac -d . C.java
+C.java:11: error: m4() has protected access in A
+       obj.m4();//outside package protected not run using inheritance we can run
+          ^
+1 error
+
+C:\Backend\Java-One\Access Modifiers\privte_pubce_protec>javac -d . D.java
+
+C:\Backend\Java-One\Access Modifiers\privte_pubce_protec>java pack2.D
+Pack1 - Class A(Public) - m1 method(public)
+Pack1 - Class A(Public) - m4 method(protected)

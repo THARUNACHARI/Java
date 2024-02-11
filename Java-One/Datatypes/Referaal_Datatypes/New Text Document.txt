@@ -1,0 +1,15 @@
+class Test{
+public static void main(String[] args){
+
+ //array declaration
+int []ids;
+
+  //array creation
+char a="A";
+init b=100;
+double c=120.24;
+float d=100.23f;
+ids=new init['b'];
+System.out.println(ids.length);
+}
+}

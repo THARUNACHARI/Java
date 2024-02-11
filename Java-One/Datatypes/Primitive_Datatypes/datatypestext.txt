@@ -1,0 +1,12 @@
+Java Data Types     - Wrapper Classes
+
+byte                 -Byte
+short 				 -Short
+int  				 -Integer
+long 				 -Long
+
+float 				-Float
+double 				-Double
+
+char 				-Character
+boolean 			 -Boolean
